@@ -1,0 +1,98 @@
+html {
+	background: url(images/chandler-city-hall.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	padding: 20px;
+	margin: 50px;
+	background-color: #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	color: #f9f9f9;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-family: 'Open Sans', sans-serif;
+}
+
+body a,
+body a:hover,
+body a:visited,
+body a:active {
+	color: #a4d11b;
+	text-decoration: none;
+}
+
+.header {
+	margin-bottom: 20px;
+}
+
+.clearfix {
+	clear:both;
+}
+
+h1,h2,h3 {
+	margin: 0;
+}
+
+h1 {
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-weight: 300;
+}
+
+h3 {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.avatar-wrapper {
+	margin-right: 10px;
+}
+
+.avatar {
+	position: relative;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	text-align: center;
+}
+
+ul.projects li {
+	list-style: none;
+	padding: 8px;
+}
+
+.projects .fa {
+	font-size: 1.25em;
+}
+
+.states {
+	font-size: .9em;
+}
+.states img {
+	height: 100px;
+}
+
+.states span {
+	display: inline-block;
+	vertical-align: top;
+}
