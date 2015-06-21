@@ -97,8 +97,10 @@ ul.projects li {
 	vertical-align: top;
 }
 .footer {
+	opacity: .75;
+	margin-top: 25px;
 	color: #a4d11b;
-	font-size: .75em;
+	font-size: .8em;
 }
 
 @media (max-width: 760px) {
