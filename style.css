@@ -114,4 +114,7 @@ ul.projects li {
 	.states span {
 		display: block;
 	}
+	.projects {
+		padding-left: 5px;
+	}
 }
