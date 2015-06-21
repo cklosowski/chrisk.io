@@ -96,6 +96,10 @@ ul.projects li {
 	display: inline-block;
 	vertical-align: top;
 }
+.footer {
+	color: #a4d11b;
+	font-size: .75em;
+}
 
 @media (max-width: 760px) {
 	body {
