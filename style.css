@@ -99,7 +99,7 @@ ul.projects li {
 
 @media (max-width: 760px) {
 	body {
-		margin: 12px;
+		margin: 12px 0;
 	}
 	.avatar-wrapper {
 		float: right;
