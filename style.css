@@ -64,6 +64,10 @@ h3 {
 	border-radius: 50%;
 }
 
+.content-main > div {
+	width: 50%;
+}
+
 .right {
 	float: right;
 }
@@ -103,13 +107,17 @@ ul.projects li {
 	font-size: .8em;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 780px) {
 	body {
 		margin: 12px 0;
 		-webkit-border-radius: 0;
 		-moz-border-radius: 0;
 		-o-border-radius: 0;
 		border-radius: 0;
+	}
+	.content-main > div {
+		width: 100%;
+		display: block;
 	}
 	.avatar-wrapper {
 		float: right;
