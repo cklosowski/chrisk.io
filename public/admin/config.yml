@@ -10,40 +10,43 @@ backend:
   branch: master
 
 # Where uploaded images are stored in the repo, and how they're referenced on
-# the site. heroImage / inline images resolve to /images/blog/<file>.
+# the site. Cover/inline images resolve to /images/blog/<file>.
 media_folder: public/images/blog
 public_folder: /images/blog
 
 collections:
-  - name: blog
+  - name: posts
     label: Blog posts
     label_singular: Blog post
-    folder: src/content/blog
+    folder: src/content/posts
     create: true
     extension: md
     format: frontmatter
     slug: '{{slug}}'
-    summary: '{{title}} — {{pubDate}}'
-    sortable_fields: [pubDate, title]
+    summary: '{{title}} — {{published}}'
+    sortable_fields: [published, title]
     fields:
       - { label: Title, name: title, widget: string }
-      - { label: Description, name: description, widget: text }
       - {
-          label: Publish date,
-          name: pubDate,
+          label: Published,
+          name: published,
           widget: datetime,
           date_format: 'YYYY-MM-DD',
           time_format: false,
           format: 'YYYY-MM-DD',
         }
       - {
-          label: Updated date,
-          name: updatedDate,
+          label: Updated,
+          name: updated,
           widget: datetime,
           date_format: 'YYYY-MM-DD',
           time_format: false,
           format: 'YYYY-MM-DD',
           required: false,
         }
-      - { label: Hero image, name: heroImage, widget: image, required: false }
+      - { label: Description, name: description, widget: text, required: false }
+      - { label: Cover image, name: image, widget: image, required: false }
+      - { label: Category, name: category, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - { label: Draft, name: draft, widget: boolean, default: false, required: false }
       - { label: Body, name: body, widget: markdown }
