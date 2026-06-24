@@ -24,8 +24,8 @@ pnpm preview    # serve the built site locally
 
 Node 22 is required (see `.nvmrc`). If `pnpm build` ever errors with a CSS
 `@apply ... link` / "class does not exist" message, it's a stale-cache quirk —
-run `rm -rf .astro && pnpm build` for a clean build. (Cloudflare always builds
-clean, so this only affects repeated local builds.)
+run `rm -rf .astro node_modules/.vite && pnpm build` for a clean build.
+(Cloudflare always builds clean, so this only affects repeated local builds.)
 
 ---
 
