@@ -1,0 +1,49 @@
+# Sveltia CMS configuration — https://sveltiacms.app/en/docs
+#
+# Auth: this is set up for the personal-access-token method (no OAuth app /
+# Worker needed). On the login screen choose "Sign In with Token" and paste a
+# GitHub token with access to this repo. See SETUP.md for details.
+
+backend:
+  name: github
+  repo: cklosowski/chrisk.io
+  branch: master
+
+# Where uploaded images are stored in the repo, and how they're referenced on
+# the site. heroImage / inline images resolve to /images/blog/<file>.
+media_folder: public/images/blog
+public_folder: /images/blog
+
+collections:
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    folder: src/content/blog
+    create: true
+    extension: md
+    format: frontmatter
+    slug: '{{slug}}'
+    summary: '{{title}} — {{pubDate}}'
+    sortable_fields: [pubDate, title]
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - {
+          label: Publish date,
+          name: pubDate,
+          widget: datetime,
+          date_format: 'YYYY-MM-DD',
+          time_format: false,
+          format: 'YYYY-MM-DD',
+        }
+      - {
+          label: Updated date,
+          name: updatedDate,
+          widget: datetime,
+          date_format: 'YYYY-MM-DD',
+          time_format: false,
+          format: 'YYYY-MM-DD',
+          required: false,
+        }
+      - { label: Hero image, name: heroImage, widget: image, required: false }
+      - { label: Body, name: body, widget: markdown }

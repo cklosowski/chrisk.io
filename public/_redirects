@@ -1,0 +1,108 @@
+# Cloudflare Pages redirects — https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Use this to preserve inbound links / SEO when migrating from WordPress.
+# One rule per line:  <from>  <to>  <status>
+#
+# Examples (uncomment and edit to match your old WordPress permalinks):
+# /2019/04/12/some-old-post/   /blog/some-old-post/   301
+# /category/leadership/        /blog/                 301
+# /feed/                       /rss.xml               301
+#
+# Tip: export your WordPress posts first, then map each old URL to its new
+# /blog/<slug>/ path here. See SETUP.md → "Migrating from WordPress".
+
+# --- Migrated from WordPress (old /%postname%/ permalinks) ---
+/quickly-emptying-a-file/	/blog/quickly-emptying-a-file/	301
+/find-and-move-all-of-one-type-of-file/	/blog/find-and-move-all-of-one-type-of-file/	301
+/patching-32-bit-deb-for-64-bit/	/blog/patching-32-bit-deb-for-64-bit/	301
+/using-bashrc-aliases-to-save-time/	/blog/using-bashrc-aliases-to-save-time/	301
+/nvidia-display-tool-incorrectly-wrote-xorg-conf/	/blog/nvidia-display-tool-incorrectly-wrote-xorg-conf/	301
+/adobe-air-unable-to-access-els/	/blog/adobe-air-unable-to-access-els/	301
+/creating-randomly-generated-passwords/	/blog/creating-randomly-generated-passwords/	301
+/find-disk-usage-folder-du/	/blog/find-disk-usage-folder-du/	301
+/ubuntu-sendmail-delays-php-mail/	/blog/ubuntu-sendmail-delays-php-mail/	301
+/sudo-su-vs-sudo-su/	/blog/sudo-su-vs-sudo-su/	301
+/selecting-default-linux-shell/	/blog/selecting-default-linux-shell/	301
+/check-linux-version-command-line/	/blog/check-linux-version-command-line/	301
+/find-grep-search-code-base/	/blog/find-grep-search-code-base/	301
+/connecting-ssh-password/	/blog/connecting-ssh-password/	301
+/mapping-command-key-control-linux/	/blog/mapping-command-key-control-linux/	301
+/customizing-vimrc-file/	/blog/customizing-vimrc-file/	301
+/hosting-review-chunkhost-vps/	/blog/hosting-review-chunkhost-vps/	301
+/the-conversion-is-complete/	/blog/the-conversion-is-complete/	301
+/apache2-vhost-combined-log-files/	/blog/apache2-vhost-combined-log-files/	301
+/3-things-ive-learned-developing-for-an-open-source-platform/	/blog/3-things-ive-learned-developing-for-an-open-source-platform/	301
+/the-gender-reveal-process/	/blog/the-gender-reveal-process/	301
+/ditch-laptop-conference-tracks/	/blog/ditch-laptop-conference-tracks/	301
+/quick-easy-google-analytics-social-interaction-tracking/	/blog/quick-easy-google-analytics-social-interaction-tracking/	301
+/day-nola/	/blog/day-nola/	301
+/matching-bazinga-shirts/	/blog/matching-bazinga-shirts/	301
+/building-plugins-hard/	/blog/building-plugins-hard/	301
+/5-learned-writing-flexible-plugins/	/blog/5-learned-writing-flexible-plugins/	301
+/postmeta-things/	/blog/postmeta-things/	301
+/perspective-debugging/	/blog/perspective-debugging/	301
+/integrating-todo-txt-gnome/	/blog/integrating-todo-txt-gnome/	301
+/font-bazinga-written-in/	/blog/font-bazinga-written-in/	301
+/trilogies-order-preference/	/blog/trilogies-order-preference/	301
+/cleanly-formatted-code-matters/	/blog/cleanly-formatted-code-matters/	301
+/integrating-status-board-with-wordpress-plugins/	/blog/integrating-status-board-with-wordpress-plugins/	301
+/beer-cheese-burgers-and-hockey/	/blog/beer-cheese-burgers-and-hockey/	301
+/the-benefits-of-wordpress-actions-and-filters/	/blog/the-benefits-of-wordpress-actions-and-filters/	301
+/a-case-for-changelog-transparency/	/blog/a-case-for-changelog-transparency/	301
+/the-power-of-pause-know-when-to-stop/	/blog/the-power-of-pause-know-when-to-stop/	301
+/simple-notices-for-responsive/	/blog/simple-notices-for-responsive/	301
+/new-features-and-the-tyranny-of-the-default/	/blog/new-features-and-the-tyranny-of-the-default/	301
+/pushover-notifications-completed-transmission-downloads/	/blog/pushover-notifications-completed-transmission-downloads/	301
+/enterprise-development-lessons/	/blog/enterprise-development-lessons/	301
+/plugin-wp-e-commerce-status-board/	/blog/plugin-wp-e-commerce-status-board/	301
+/issue-every-commit/	/blog/issue-every-commit/	301
+/undo-git-pull/	/blog/undo-git-pull/	301
+/return-customer-support-world/	/blog/return-customer-support-world/	301
+/removing-another-plugins-hooks/	/blog/removing-another-plugins-hooks/	301
+/chance-learn-something-new/	/blog/chance-learn-something-new/	301
+/work-vs-procrastination/	/blog/work-vs-procrastination/	301
+/using-easy-digital-downloads-software-licensing-api-gatekeeper/	/blog/using-easy-digital-downloads-software-licensing-api-gatekeeper/	301
+/must-books-software-development/	/blog/must-books-software-development/	301
+/developer-protip-dont-tricky/	/blog/developer-protip-dont-tricky/	301
+/list-edd-contributors/	/blog/list-edd-contributors/	301
+/dont-pitch-bro/	/blog/dont-pitch-bro/	301
+/next-big-idea-small/	/blog/next-big-idea-small/	301
+/biggest-asset-developer/	/blog/biggest-asset-developer/	301
+/ide-sucks/	/blog/ide-sucks/	301
+/leading-example/	/blog/leading-example/	301
+/generating-star-ratings-dashicons/	/blog/generating-star-ratings-dashicons/	301
+/showing-edd-file-download-sizes/	/blog/showing-edd-file-download-sizes/	301
+/part-social-experiment/	/blog/part-social-experiment/	301
+/setup-desktopserver-wordpress-trunk/	/blog/setup-desktopserver-wordpress-trunk/	301
+/not-everything-nail/	/blog/not-everything-nail/	301
+/reducing-phpunit-test-times-travis-ci/	/blog/reducing-phpunit-test-times-travis-ci/	301
+/dont-settle-broken-windows/	/blog/dont-settle-broken-windows/	301
+/code-snippet-show-blog-id-admin-header/	/blog/code-snippet-show-blog-id-admin-header/	301
+/coding-in-someone-elses-kitchen/	/blog/coding-in-someone-elses-kitchen/	301
+/protect-all-the-reputations/	/blog/protect-all-the-reputations/	301
+/prevent-discount-codes-with-easy-digital-downloads-software-licensing-renewal-discount/	/blog/prevent-discount-codes-with-easy-digital-downloads-software-licensing-renewal-discount/	301
+/getting-feedback-is-about-more-than-asking-for-it/	/blog/getting-feedback-is-about-more-than-asking-for-it/	301
+/how-we-updated-37-plugins-in-4-days/	/blog/how-we-updated-37-plugins-in-4-days/	301
+/how-writing-one-plugin-changed-my-lifestyle/	/blog/how-writing-one-plugin-changed-my-lifestyle/	301
+/woocommerce-hide-out-of-stock-products-only-when-backorders-arent-allowed/	/blog/woocommerce-hide-out-of-stock-products-only-when-backorders-arent-allowed/	301
+/wordpress-silence-is-golden-snippet-for-sublime-text-2-3/	/blog/wordpress-silence-is-golden-snippet-for-sublime-text-2-3/	301
+/proficiency-is-a-bubble/	/blog/proficiency-is-a-bubble/	301
+/hindsight-is-2020/	/blog/hindsight-is-2020/	301
+/code-snippet-clean-up-your-local-development-admin-bar/	/blog/code-snippet-clean-up-your-local-development-admin-bar/	301
+/woocommerce-hide-categories-with-no-visible-products-in-the-product-category-widget/	/blog/woocommerce-hide-categories-with-no-visible-products-in-the-product-category-widget/	301
+/why-allmymovies-wasnt-so-stupid/	/blog/why-allmymovies-wasnt-so-stupid/	301
+/testing-ip-sensitive-data-on-localhost/	/blog/testing-ip-sensitive-data-on-localhost/	301
+/using-zapier-twitter-and-pushover-to-monitor-your-followers/	/blog/using-zapier-twitter-and-pushover-to-monitor-your-followers/	301
+/planning-success-means-planning-failure/	/blog/planning-success-means-planning-failure/	301
+/delorean-ipsum-generator-for-wordpress/	/blog/delorean-ipsum-generator-for-wordpress/	301
+/momentarily-pausing-the-hustle/	/blog/momentarily-pausing-the-hustle/	301
+/local-wordpress-development-pressmatic-review/	/blog/local-wordpress-development-pressmatic-review/	301
+/inspiration-vs-motivation-honest/	/blog/inspiration-vs-motivation-honest/	301
+/3-things-important-programming-languages-know/	/blog/3-things-important-programming-languages-know/	301
+/how-becoming-a-parent-has-made-me-a-better-developer/	/blog/how-becoming-a-parent-has-made-me-a-better-developer/	301
+/make-branch-pull-request-github/	/blog/make-branch-pull-request-github/	301
+/3-ways-reduce-bounce-rate-technical-blogger/	/blog/3-ways-reduce-bounce-rate-technical-blogger/	301
+/becoming-better-debugger/	/blog/becoming-better-debugger/	301
+/conditionally-add-css-classes-to-wordpress-widgets/	/blog/conditionally-add-css-classes-to-wordpress-widgets/	301
+/adding-progress-bars-wp-cli-processes/	/blog/adding-progress-bars-wp-cli-processes/	301
+/definitive-guide-wordpress-asset-versioning/	/blog/definitive-guide-wordpress-asset-versioning/	301
